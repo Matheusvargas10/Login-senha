@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login e senha</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
 </head>
 <body>
     <main>
-        <section>
-            <div class="img">
-                foto
+        <section id="login">
+            <div id="img">
+
 
             </div>
-            <div class="tela">
-                <form action="cadastro.php" method="post"
-                    autocomplete="on">
-                    <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome">
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha">
-                    <input type="reset" value="Limpar">
-                    <input type="submit" value="Enviar">
+            <div id="form">
+                <h1>Bem vindo</h1>
+                <form action="" method="post" autocomplete="on">
+                <label for="ilon">Login</label>
+                <input type="text" name="nome" id="ilon" value="Nome completo">
+                <label for="isenha">Senha</label >
+                <input type="password" name="senha" id="isenha" value="">
+
+                <input id="envi" type="submit" value="Enviar">
+                <input id="lim" type="reset" value="Limpar">
+             
                 </form>
-            </div>
+            </div>    
         </section>
     </main>
 </body>
