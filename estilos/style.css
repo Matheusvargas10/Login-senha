@@ -96,7 +96,7 @@ form > div#campo{
    margin-bottom: 5px;
    height: 40px;
 }
-div#campo > input:focus-visible{
+div#campo > input:hover{
    background-color: white;
 }
 div#campo > input{
